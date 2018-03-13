@@ -1,0 +1,35 @@
+@import "../mixin.scss";
+
+* {
+  font-family: "Microsoft YaHei", "PingFang SC", tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color:transparent;
+}
+
+a{
+  color: $mainColor;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1;
+}
+
+button, input, select {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+.page-enter-active, .page-leave-active
+{
+  transition: opacity .5s
+}
+.page-enter, .page-leave-active
+{
+  opacity: 0
+}
