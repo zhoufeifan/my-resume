@@ -3,21 +3,23 @@
     <Header></Header>
     <div class="resume-content">
       <ItemTitle title="工作经历" :icon="require('../assets/img/test.svg')">
-        <DraftItem>
-          <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
-        </DraftItem>
-        <DraftItem>
-          <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
-        </DraftItem>
-        <DraftItem>
-          <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
-        </DraftItem>
-        <DraftItem>
-          <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
-        </DraftItem>
-        <DraftItem>
-          <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
-        </DraftItem>
+        <div class="draft-group">
+          <DraftItem>
+            <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
+          </DraftItem>
+          <DraftItem>
+            <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
+          </DraftItem>
+          <DraftItem>
+            <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
+          </DraftItem>
+          <DraftItem>
+            <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
+          </DraftItem>
+          <DraftItem>
+            <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
+          </DraftItem>
+        </div>
       </ItemTitle>
       <ItemTitle title="项目经理" :icon="require('../assets/img/test.svg')">
       </ItemTitle>
@@ -54,6 +56,21 @@
   box-shadow: 0 2px 16px 0 rgba(73,73,73,.1);
   .resume-content{
     padding: 30px;
+  }
+  .draft-group{
+    position: relative;
+    /*border-left: solid black 1px;*/
+    z-index: 1;
+    &::after{
+      position: absolute;
+      content: " ";
+      width: 1px;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: .5;
+      background-color: $mainColor;
+    }
   }
 }
 </style>

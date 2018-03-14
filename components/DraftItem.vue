@@ -1,8 +1,6 @@
 <template>
-  <div class="draft-group">
-    <div class="draft-group-item">
-      <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
-    </div>
+  <div class="draft-group-item">
+    <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
   </div>
 </template>
 
@@ -22,21 +20,6 @@
 
 <style lang="scss" scoped>
   @import "~assets/mixin.scss";
-  .draft-group{
-    position: relative;
-    /*border-left: solid black 1px;*/
-    z-index: 1;
-    &::after{
-      position: absolute;
-      content: " ";
-      width: 1px;
-      height: 100%;
-      top: 0;
-      left: 0;
-      opacity: .5;
-      background-color: $mainColor;
-    }
-  }
   .draft-group-item{
     position: relative;
     padding: 10px 0 10px 20px;
