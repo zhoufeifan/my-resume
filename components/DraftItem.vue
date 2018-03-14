@@ -1,6 +1,7 @@
 <template>
   <div class="draft-group-item">
-    <p>冯萨芬就冯撒酒疯就会i就冯萨芬范德萨发撒冯萨芬冯萨芬撒</p>
+    <span class="cover-mark"></span>
+    <slot></slot>
   </div>
 </template>
 
@@ -25,6 +26,17 @@
     padding: 10px 0 10px 20px;
     font-size: 14px;
     z-index: 2;
+    .cover-mark{
+      position: absolute;
+      content: " ";
+      top: 0;
+      left: -8px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #fff;
+      z-index: 3;
+    }
     &::before{
       position: absolute;
       content: " ";

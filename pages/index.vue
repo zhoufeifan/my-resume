@@ -59,7 +59,6 @@
   }
   .draft-group{
     position: relative;
-    /*border-left: solid black 1px;*/
     z-index: 1;
     &::after{
       position: absolute;
