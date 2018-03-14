@@ -47,7 +47,7 @@
 <script>
     export default {
         name: 'Header',
-    }
+    };
 </script>
 
 <style lang="scss" scoped>
@@ -60,7 +60,7 @@
             display: flex;
         }
         .title{
-            border-bottom: 2px solid black;
+            border-bottom: 1px solid #dfdfdf;
             margin-bottom: 5px;
             padding-bottom: 5px;
         }
