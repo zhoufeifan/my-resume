@@ -2,7 +2,7 @@
   <div class="handle-content">
     <div class="resume-item-head">
       <div class="resume-item-title">
-        <img :src="icon"/>
+        <img class="title-icon" :src="icon"/>
         {{title}}
       </div>
     </div>
@@ -41,6 +41,10 @@
         font-size: 18px;
         font-weight: 700;
         padding-left: 10px;
+        .title-icon{
+          width: 22px;
+          vertical-align: sub;
+        }
       }
     }
     .content{

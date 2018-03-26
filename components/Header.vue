@@ -3,10 +3,10 @@
         <div class="resume-head">
             <section class="title">
                 <div class="name">
-                    <h1>王尼玛</h1>
+                    <h1>周非凡</h1>
                 </div>
                 <div class="job">
-                    <h2>暴走大事件主持人</h2>
+                    <h2>Web前端工程师</h2>
                 </div>
             </section>
             <section class="other-info">
@@ -19,22 +19,22 @@
                 </div>
                 <div class="personal-contact">
                     <ul>
+                        <!--<li>-->
+                            <!--<a href="http://zhoufeifan.github.com">-->
+                                <!--<span class="contact-link">zhoufeifan.github.com</span>-->
+                                <!--<img class="iconfont" src="~assets/img/github.svg"/>-->
+                            <!--</a>-->
+                        <!--</li>-->
                         <li>
-                            <a href="https://nima.com">
-                                <span class="contact-link">gwuhaolin@icloud.com</span>
-                                <img class="iconfont" src="~assets/img/github.svg"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:gwuhaolin@icloud.com">
-                                <span class="contact-link">gwuhaolin@icloud.com</span>
-                                <img class="iconfont" src="~assets/img/github.svg"/>
+                            <a href="mailto:superzhou7@gmail.com">
+                                <span class="contact-link">superzhou7@gmail.com</span>
+                                <img class="iconfont" src="~assets/img/email.svg"/>
                             </a>
                         </li>
                         <li>
                             <a href="tel:1745324934">
-                                <span class="contact-link">18681569574</span>
-                                <img class="iconfont" src="~assets/img/github.svg"/>
+                                <span class="contact-link">18368082630</span>
+                                <img class="iconfont" src="~assets/img/phone.svg"/>
                             </a>
                         </li>
                     </ul>
@@ -83,8 +83,9 @@
                     color: white;
                 }
                 .iconfont{
-                    vertical-align: middle;
-                    margin-left: 2px;
+                  vertical-align: sub;
+                  margin-left: 2px;
+                  width: 16px;
                 }
             }
         }
