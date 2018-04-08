@@ -1,14 +1,44 @@
 <template>
   <div class="containers">
     <div class="skill-master-container">
-      <p class="skill-name">哈哈哈哈</p>
-      <p class="skill-description">冯萨芬撒发神经啊发链接撒练腹肌发撒发烧冯萨芬撒发</p>
+      <p class="skill-name">Web基础</p>
+      <p class="skill-description">熟悉JS的基本语法和知识，并且熟练掌握es5+语法以及API。</p>
+      <p class="skill-description">熟练掌握CSS 规则以及语法，熟练使用SCSS。</p>
+      <p class="skill-description">掌握移动web端开发的响应式设计，以及兼容问题的处理。</p>
+      <p class="skill-description">熟悉chrome浏览器开发者工具的使用和调试。</p>
     </div>
     <div class="skill-master-container">
-      <p class="skill-name">哈哈哈哈</p>
-      <div class="skill-description">
-        冯萨芬撒发神经啊发链接撒练腹肌发撒发烧冯萨芬撒发<br>佛挡杀佛2烦死啦放假了
-      </div>
+      <p class="skill-name">流行框架</p>
+      <div class="skill-description">熟练掌握React、Vue的开发，以及其所对应的生态技术栈</div>
+      <div class="skill-description">使用React、Vue 进行第二方、第三方组件化开发</div>
+    </div>
+    <div class="skill-master-container">
+      <p class="skill-name">Webpack</p>
+      <div class="skill-description">熟悉webpack 中的各种字段的配置</div>
+      <div class="skill-description">公共模块抽离、资源的懒加载</div>
+      <div class="skill-description">熟悉webpack 流行 plugins 和loader的配置</div>
+    </div>
+    <div class="skill-master-container">
+      <p class="skill-name">网络请求</p>
+      <div class="skill-description">属性Http协议，对新版的Http2也有了解</div>
+      <div class="skill-description">可以通过chrome 调试工具查看网络请求的情况</div>
+    </div>
+    <div class="skill-master-container">
+      <p class="skill-name">服务端</p>
+      <div class="skill-description">掌握Nodejs 中常用的api</div>
+      <div class="skill-description">运用Nodejs 编写发布脚本</div>
+      <div class="skill-description">koa + MongoDB 实现一个todoList 的网站</div>
+      <div class="skill-description">使用 Nuxt.js 搭建了一个人简历的同构应用项目</div>
+    </div>
+    <div class="skill-master-container">
+      <p class="skill-name">WebApp</p>
+      <div class="skill-description">有过nw.js 和 electron 的开发经验</div>
+    </div>
+    <div class="skill-master-container">
+      <p class="skill-name">其他</p>
+      <div class="skill-description">掌握git的基本命令 </div>
+      <div class="skill-description">了解Linux脚本常用的一些命令</div>
+      <div class="skill-description">Mac、JetBrains 的资深用户</div>
     </div>
   </div>
 </template>
@@ -26,9 +56,26 @@
       &:not(:last-child){
         margin-bottom: 30px;
       }
+      .skill-name{
+        font-size: 16px;
+        font-weight: bold;
+      }
       .skill-description{
-        margin-top: 15px;
-        line-height: 20px;
+        padding-left: 20px;
+        position: relative;
+        margin-top: 12px;
+        line-height: 16px;
+        &::before{
+          content: '';
+          display: block;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background-color: black;
+          position: absolute;
+          left: 0;
+          top: 5px;
+        }
       }
     }
   }
