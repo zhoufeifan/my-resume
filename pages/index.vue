@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <a class="download" href="#">下载pdf</a>
+    <a class="download" href="http://localhost:3001/download/downLoadResumePDF">下载pdf</a>
     <div class="resume-container">
       <Header></Header>
       <div class="resume-content">
@@ -39,7 +39,7 @@
               <p class="work-content">
                 1、负责前端项目的脚手架搭建与配置<br>
                 2、负责公司的主流项目『采宝收银台』的开发与维护<br>
-                3、参与日常的前端业务开发，包括PC端项目『商家后台』，移动端（支付宝、微信内嵌页面）H5页面的开发<br>
+                3、参与日常的前端业务开发，包括PC端项目『商家后台』，<br>移动端（支付宝、微信内嵌页面）H5页面的开发<br>
                 4、参与前端组件库的开发<br>
                 5、参与前端发布脚本的编写
               </p>
@@ -96,16 +96,17 @@
 <style lang="scss" scoped>
   @import "~assets/mixin.scss";
   .page-container{
-    margin-top: 30px;
-    @include center-block;
     width: 800px;
+    @include center-block;
     .download{
       font-size: 14px;
       color: #bbbbbb;
-      display: inline-block;
-      margin-bottom: 10px;
+      position: absolute;
+      top: 8px;
     }
     .resume-container {
+      margin-top: 30px;
+      margin-bottom: 10px;
       overflow: hidden;
       background-color: white;
       border-radius: 4px;
@@ -114,12 +115,14 @@
         padding: 30px;
         font-size: 14px;
         .school-career-container{
-          display: flex;
+          /*display: flex;*/
           position: relative;
-          flex-wrap: wrap;
+          /*flex-wrap: wrap;*/
+          @include clear-fix;
           .awards-item{
+            float: left;
             width: 50%;
-            flex-wrap: wrap;
+            /*flex-wrap: wrap;*/
             @include Height(30px);
             &>span{
               display: inline-block;

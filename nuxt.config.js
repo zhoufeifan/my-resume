@@ -33,6 +33,11 @@ module.exports = {
     extend (config, { isDev, isClient }) {
       const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader');
       vueLoader.options.loaders.sass = 'vue-style-loader!css-loader!sass-loader';
+      config.module.rules.map((rule) => {
+        if(rule.loader === 'url-loader'){
+          rule.options.limit = "50000";
+        }
+      });
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
