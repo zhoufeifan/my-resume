@@ -37,6 +37,10 @@
                                 <img class="iconfont" src="~assets/img/phone.svg"/>
                             </a>
                         </li>
+                        <li>
+                            <span>期望薪资：15K</span>
+                            <img class="iconfont" src="~assets/img/currency.svg"/>
+                        </li>
                     </ul>
                 </div>
             </section>

@@ -35,7 +35,7 @@
         <ItemTitle title="工作经历" :icon="require('../assets/img/work.svg')">
           <div class="draft-group">
             <DraftItem>
-              <CareerTitle time="2016.04 — 至今" company="杭州合言信息科技有限公司" job="前端开发"></CareerTitle>
+              <CareerTitle time="2016.04 — 至今" company="杭州合言信息科技有限公司" job="前端开发（11K）"></CareerTitle>
               <p class="work-content">
                 1、负责前端项目的脚手架搭建与配置<br>
                 2、负责公司的主流项目『采宝收银台』的开发与维护<br>
