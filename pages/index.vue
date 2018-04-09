@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <a class="download" href="http://localhost:3001/download/downLoadResumePDF">下载pdf</a>
+    <a class="download" :href="downloadUrl">下载pdf</a>
     <div class="resume-container">
       <Header></Header>
       <div class="resume-content">
@@ -74,12 +74,14 @@
 </template>
 
 <script>
+  import {domain} from '../config.json';
   import Header from '../components/Header.vue';
   import ItemTitle from '../components/ItemTitle.vue';
   import DraftItem from '../components/DraftItem.vue';
   import CareerTitle from '../components/CareerTitle.vue';
   import ProjectsContainer from '../components/ProjectsContainer.vue';
   import SkillManages from '../components/SkillManages.vue';
+
 
   export default {
       components: {
@@ -89,6 +91,11 @@
         CareerTitle,
         ProjectsContainer,
         SkillManages
+      },
+      data(){
+        return{
+          downloadUrl : `${domain}/download/downLoadResumePDF`,
+        };
       }
   };
 </script>
