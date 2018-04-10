@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <a class="download" :href="downloadUrl">下载pdf</a>
+    <!--<a class="download" :href="downloadUrl">下载pdf</a>-->
     <div class="resume-container">
       <Header></Header>
       <div class="resume-content">
@@ -65,6 +65,9 @@
             </p>
             <p class="comment-item">
               对时间有点吝啬，喜欢对事情做四象限分类，会安排自己的todoList
+            </p>
+            <p class="comment-item">
+              平时注重锻炼身体，把身体健康看得比什么都重要
             </p>
           </div>
         </ItemTitle>
