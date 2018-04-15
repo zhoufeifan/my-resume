@@ -15,16 +15,11 @@
                         <li>男 / 1992.10</li>
                         <li>浙江海洋大学 · 计算机科学与技术</li>
                         <li>本科 / 2016年毕业</li>
+                        <li>期望薪资：15K</li>
                     </ul>
                 </div>
                 <div class="personal-contact">
                     <ul>
-                        <!--<li>-->
-                            <!--<a href="http://zhoufeifan.github.com">-->
-                                <!--<span class="contact-link">zhoufeifan.github.com</span>-->
-                                <!--<img class="iconfont" src="~assets/img/github.svg"/>-->
-                            <!--</a>-->
-                        <!--</li>-->
                         <li>
                             <a href="mailto:superzhou7@gmail.com">
                                 <span class="contact-link">superzhou7@gmail.com</span>
@@ -38,8 +33,16 @@
                             </a>
                         </li>
                         <li>
-                            <span>期望薪资：15K</span>
-                            <img class="iconfont" src="~assets/img/currency.svg"/>
+                            <a href="https://github.com/zhoufeifan">
+                                <span class="contact-link">https://github.com/zhoufeifan</span>
+                                <img class="iconfont" src="~assets/img/github.svg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://blog.zhoufeifan.tech/">
+                                <span class="contact-link">blog.zhoufeifan.tech</span>
+                                <img class="iconfont" src="~assets/img/blog.svg"/>
+                            </a>
                         </li>
                     </ul>
                 </div>

@@ -27,8 +27,8 @@
       <p class="skill-name">服务端</p>
       <div class="skill-description">掌握Nodejs 中常用的api</div>
       <div class="skill-description">运用Nodejs 编写发布脚本</div>
-      <div class="skill-description"><a href="http://todolist.zhoufeifan.tech/dist/index.html#/">koa + MongoDB 实现一个todoList 的网站</a></div>
-      <div class="skill-description"><a href="http://resume.zhoufeifan.tech/">使用 Nuxt.js 搭建了一个人简历的同构应用项目</a></div>
+      <div class="skill-description">koa + MongoDB 实现一个todoList 的网站 地址:<a href="http://todolist.zhoufeifan.tech/dist/index.html#/">http://todolist.zhoufeifan.tech/dist/index.html</a></div>
+      <div class="skill-description">使用 Nuxt.js 搭建了一个人简历的同构应用项目 地址:<a href="http://resume.zhoufeifan.tech/">resume.zhoufeifan.tech</a></div>
     </div>
     <div class="skill-master-container">
       <p class="skill-name">WebApp</p>
