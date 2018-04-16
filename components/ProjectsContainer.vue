@@ -62,7 +62,7 @@
     position: relative;
     .project-name{
       @include Height(22px);
-      font-size: 16px;
+      font-size: 14px;
       margin-bottom: 15px;
     }
     .skill-tags{
@@ -82,7 +82,9 @@
       }
     }
     .project-description{
-      width: 600px;
+      /*width: 600px;*/
+      font-size: 12px;
+      width: 80%;
       margin-top: 10px;
       line-height: 1.5;
     }

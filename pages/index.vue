@@ -8,27 +8,27 @@
           <div class="school-career-container">
             <div class="awards-item">
               <span class="time">2015.12</span>
-              <span class="awards">获得浙江海洋大学『王成海』奖学金</span>
+              <span class="awards">浙江海洋大学『王成海』奖学金</span>
             </div>
             <div class="awards-item">
               <span class="time">2015.05</span>
-              <span class="awards">获得《浙江省服务外包竞赛》二等奖</span>
+              <span class="awards">『浙江省服务外包竞赛』二等奖</span>
             </div>
             <div class="awards-item">
               <span class="time">2015.04</span>
-              <span class="awards">获得《浙江省程序设计竞赛》铜奖</span>
+              <span class="awards">『浙江省程序设计竞赛』铜奖</span>
             </div>
             <div class="awards-item">
-              <span class="time">2013.11-2015.3</span>
-              <span class="awards">负责《新苗人才计划项目》成功结业</span>
+              <span class="time">2015.03</span>
+              <span class="awards">『新苗人才计划项目』成功结业</span>
             </div>
             <div class="awards-item">
               <span class="time">2014.12</span>
-              <span class="awards">获得《浙江省多媒体设计竞赛》三等奖</span>
+              <span>『浙江省多媒体设计竞赛』三等奖</span>
             </div>
             <div class="awards-item">
               <span class="time">2014.05</span>
-              <span class="awards">获得《浙江省电子商务竞赛》三等奖</span>
+              <span class="awards">『浙江省电子商务竞赛』三等奖</span>
             </div>
           </div>
         </ItemTitle>
@@ -125,21 +125,25 @@
         padding: 30px;
         font-size: 14px;
         .school-career-container{
+          font-size: 12px;
           /*display: flex;*/
           position: relative;
           /*flex-wrap: wrap;*/
           @include clear-fix;
           .awards-item{
             float: left;
+            /*margin-right: 20px;*/
             width: 50%;
             /*flex-wrap: wrap;*/
             @include Height(30px);
+            @include clear-fix;
             &>span{
-              display: inline-block;
+              float: left;
+              display: block;
             }
           }
           .time{
-            width: 108px;
+            width: 60px;
           }
         }
         .draft-group{
@@ -158,6 +162,7 @@
           .work-content{
             width: 514px;
             line-height:2;
+            font-size: 12px;
           }
         }
         .comment-myself{
@@ -165,6 +170,7 @@
             position: relative;
             margin-top: 12px;
             padding-left: 16px;
+            font-size: 12px;
             &::before{
               content: '';
               display: block;
@@ -178,6 +184,24 @@
             }
           }
         }
+      }
+    }
+  }
+
+    /*.page-container{*/
+        /*width: 100%;*/
+      /*.resume-container {*/
+        /*margin: 0;*/
+        /*border-radius: 0;*/
+      /*}*/
+    /*}*/
+
+  @media screen and (max-width: 1024px){
+    .page-container{
+        width: 100%;
+      .resume-container {
+        margin: 0;
+        border-radius: 0;
       }
     }
   }
