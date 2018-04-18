@@ -46,7 +46,7 @@
             </DraftItem>
           </div>
         </ItemTitle>
-        <ItemTitle title="主要项目经历" :icon="require('../assets/img/project.svg')">
+        <ItemTitle title="项目经历" :icon="require('../assets/img/project.svg')">
           <!--项目经历-->
           <ProjectsContainer></ProjectsContainer>
         </ItemTitle>
@@ -58,7 +58,7 @@
           <!--自我评价-->
           <div class="comment-myself">
             <p class="comment-item">
-              不太安分，喜欢研究探索一些新的或者其他领域的技术。
+              为人乐观开朗且不安分，喜欢研究探索一些新的或者其他领域的技术。
             </p>
             <p class="comment-item">
               有点偏向于完美主义，会对自己之前写的程序做改进优化。
@@ -188,13 +188,13 @@
     }
   }
 
-    /*.page-container{*/
-        /*width: 100%;*/
-      /*.resume-container {*/
-        /*margin: 0;*/
-        /*border-radius: 0;*/
-      /*}*/
-    /*}*/
+    .page-container{
+        width: 100%;
+      .resume-container {
+        margin: 0;
+        border-radius: 0;
+      }
+    }
 
   @media screen and (max-width: 1024px){
     .page-container{

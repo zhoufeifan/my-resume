@@ -7,10 +7,10 @@
       </div>
       <p class="project-name">采宝收银台</p>
       <p class="project-description">
-        项目描述：是一个运行在PC客户端的收银软件。收银员通过扫描消费者的付款码，从而完成交易。还有交易报表查询以及商家会员卡券核销的功能。
+        项目描述：是一个运行在PC客户端的收银软件。主要的功能有：扫码收款、商品收银、会员的注册与充值、交易报表的查询、以及订单小票的打印。
       </p>
       <p class="project-description">
-        涉及技术：使用Nw.js作为客户端支持，是React作为主要框架的单页面应用。
+        涉及技术：使用Nw.js作为客户端支持，是集成React + React-Router + Mobx 的单页面应用程序。
       </p>
     </div>
     <div class="project-container">
@@ -20,10 +20,10 @@
       </div>
       <p class="project-name">采宝商家后台</p>
       <p class="project-description">
-        项目描述：是一个商户专用的网站平台，商家可以在这个平台上传个人资料信息，来实现与支付宝、微信进行收款签约。也可以在平台上查询自己的交易、会员、消费者等数据。
+        项目描述：是一个商户专用的大型网站平台，涉及的功能点很多，具体可以抽象为表单数据的提交、筛选条件进行数据查询、图表的绘制。
       </p>
       <p class="project-description">
-        涉及技术：项目由React编写，包含了多个单页面应用，且共用一套组件，打包编译速度成了根本的问题。因此用webpack 实现了公共模块的抽离，组件模块的动态加载，从而提升打包的效率。
+        涉及技术：Webpack 配置多个单页面应用、公共模块的抽离、组件的动态加载。用node 实现文件的懒编译， 用 React + ant-design 进行组件化开发。
       </p>
     </div>
     <div class="project-container">
@@ -32,12 +32,42 @@
         <span class="tag-item">H5</span>
         <span class="tag-item">支付宝、微信</span>
       </div>
-      <p class="project-name">扫码支付页面</p>
+      <p class="project-name">商家会员系统</p>
       <p class="project-description">
-      项目描述：消费者可以通过使用支付宝或者微信扫一扫来进入这个页面，输入金额、选择卡券或者活动，通过支付宝或者微信支付向商家付款。
+      项目描述：运行在支付宝或者微信H5页面的会员系统，主要的功能点会员的注册、充值、详情的展示、卡券的领取、商家活动的展示。
       </p>
       <p class="project-description">
-        涉及技术：主要框架Vue，使用了flex、rem 等响应式布局，css3动画效果。
+        涉及技术：主要框架Vue全家桶，使用了flex、rem 等响应式布局，css3动画效果，路由的懒加载。
+      </p>
+    </div>
+    <div class="project-container">
+      <div class="skill-tags">
+        <span class="tag-item">Vue</span>
+        <span class="tag-item">H5</span>
+        <span class="tag-item">支付宝、微信</span>
+      </div>
+      <p class="project-name">商家二维码支付系统</p>
+      <p class="project-description">
+      项目描述：运行在支付宝或者微信H5页面的支付系统，消费者通过支付宝或者微信扫描商家的二维码进入系统，输入金额，向进行商家付款。
+      </p>
+      <p class="project-description">
+        涉及技术：主要框架Vue全家桶，使用了flex、rem 等响应式布局，css3动画效果。
+      </p>
+    </div>
+    <div class="project-container">
+      <div class="skill-tags">
+        <span class="tag-item">node</span>
+        <span class="tag-item">shell</span>
+        <span class="tag-item">git</span>
+      </div>
+      <p class="project-name">前端发布脚本</p>
+      <p class="project-description">
+      项目描述：参考vue-cli 开发的前端资源发布的命令行工具。
+      主要的功能：集中打包项目的资源到测试环境、预发环境、以及线上环境，
+      并自动进行相应的git的操作，实现一键化发布流程。
+      </p>
+      <p class="project-description">
+        涉及技术：node.js、ali-oss、shell、puppeteer等。
       </p>
     </div>
   </div>
@@ -79,6 +109,7 @@
         border: $mainColor solid 1px;
         color: $mainColor;
         margin-left: 6px;
+        font-size: 12px;
       }
     }
     .project-description{
