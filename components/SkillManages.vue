@@ -44,8 +44,8 @@
       </div>
     </div>
     <div class="skill-master-container">
-      <p class="skill-name">WebApp</p>
-      <div class="skill-description">有过使用nw.js 和 electron 进行桌面端应用的开发经验</div>
+      <p class="skill-name">客户端应用</p>
+      <div class="skill-description">有过nw.js 和 electron 的开发经验</div>
     </div>
     <div class="skill-master-container">
       <p class="skill-name">其他</p>

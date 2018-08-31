@@ -70,6 +70,20 @@
         涉及技术：node.js、ali-oss、shell、puppeteer等。
       </p>
     </div>
+    <div class="project-container">
+      <div class="skill-tags">
+        <span class="tag-item">React</span>
+        <span class="tag-item">Electron</span>
+        <span class="tag-item">Node</span>
+      </div>
+      <p class="project-name">快麦收银软件</p>
+      <p class="project-description">
+      项目描述：是一款集成电子秤，条码秤、打印机、商品系统为一体的收银软件。
+      </p>
+      <p class="project-description">
+        涉及技术：electron、node、硬件动态库调用。
+      </p>
+    </div>
   </div>
 </template>
 
@@ -94,6 +108,7 @@
       @include Height(22px);
       font-size: 14px;
       margin-bottom: 15px;
+      font-weight:bold;
     }
     .skill-tags{
       position: absolute;
