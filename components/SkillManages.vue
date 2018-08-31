@@ -41,7 +41,7 @@
     </div>
     <div class="skill-master-container">
       <p class="skill-name">客户端应用</p>
-      <div class="skill-description">有过nw.js 和 electron 的开发经验</div>
+      <div class="skill-description">有过nw.js 和 electron 的开发经验，对微信小程序和钉钉E应用也有一定的了解</div>
     </div>
     <div class="skill-master-container">
       <p class="skill-name">其他</p>
