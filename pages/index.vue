@@ -4,60 +4,58 @@
     <div class="resume-container">
       <Header></Header>
       <div class="resume-content">
-        <ItemTitle title="工作经历" :icon="require('../assets/img/work.svg')">
-          <div class="draft-group">
-            <DraftItem>
-              <CareerTitle time="2016.04 — 2018.05" company="杭州合言信息科技有限公司" job="前端开发"></CareerTitle>
-              <p class="work-content">
-                1、负责前端项目的脚手架搭建与配置<br>
-                2、负责公司的主流项目『采宝收银台』的开发与维护<br>
-                3、参与日常的前端业务开发，包括PC端项目『商家后台』，<br>移动端（支付宝、微信内嵌页面）H5页面的开发<br>
-                4、参与前端组件库的开发<br>
-                5、参与前端发布脚本的编写
-              </p>
-            </DraftItem>
-          </div>
-          <div class="draft-group">
-            <DraftItem>
-              <CareerTitle time="2018.05 — 至今" company="杭州光云科技公司" job="高级前端开发"></CareerTitle>
-              <p class="work-content">
-                1、负责快麦收银端系统日常维护与业务开发，包括web端的与electron端<br>
-              </p>
-            </DraftItem>
-          </div>
-        </ItemTitle>
-        <ItemTitle title="主要项目经历" :icon="require('../assets/img/project.svg')">
-          <!--项目经历-->
-          <ProjectsContainer></ProjectsContainer>
-        </ItemTitle>
         <ItemTitle title="技能掌握" :icon="require('../assets/img/skill.svg')">
           <!--技能掌握-->
           <SkillManages></SkillManages>
         </ItemTitle>
-        <ItemTitle title="在校经历" :icon="require('../assets/img/school.svg')">
+        <ItemTitle title="工作经历" :icon="require('../assets/img/work.svg')">
+          <div class="draft-group">
+            <DraftItem>
+              <CareerTitle time="2018.05 — 至今" company="杭州光云科技公司" job="前端开发"></CareerTitle>
+              <p class="work-content">
+                参与过快麦收银软件的开发，包括web端的与electron端，硬件设备的接入。<br>
+                番茄表单网站的优化与改进。<br>
+                有成年会C端报名页的开发，用户体验的改进。<br>
+                红包雨项目，处理高并发型引起的性能问题。<br>
+              </p>
+            </DraftItem>
+          </div>
+          <div class="draft-group">
+            <DraftItem>
+              <CareerTitle time="2016.04 — 2018.05" company="杭州合言信息科技有限公司" job="前端开发"></CareerTitle>
+              <div class="work-content">
+                <p>
+                  16年进入公司接触公司的主要产品『采宝收银台』，之后对项目进行的不断的改进和调整，
+                  前端方面将jquery重构成React，项目用webpack进行打包构建。客户端方面从C#升级为NW，过程中踩了很多坑，
+                  但性能、体验以及稳定性都有很大的提升，间接推动用户量增长。
+                </p>
+                <p>负责前端部分项目的脚手架搭建与配置。</p>
+                <p>带实习生进行日常的项目开发。</p>
+              </div>
+            </DraftItem>
+          </div>
+        </ItemTitle>
+        <!-- <ItemTitle title="主要项目经历" :icon="require('../assets/img/project.svg')">
+          <ProjectsContainer></ProjectsContainer>
+        </ItemTitle> -->
+        <ItemTitle title="在校荣誉" :icon="require('../assets/img/school.svg')">
           <div class="school-career-container">
             <div class="awards-item">
-              <span class="time">2015.04</span>
               <span class="awards">『浙江省程序设计竞赛』铜奖</span>
             </div>
             <div class="awards-item">
-              <span class="time">2015.12</span>
               <span class="awards">浙江海洋大学『王成海』奖学金</span>
             </div>
             <div class="awards-item">
-              <span class="time">2015.05</span>
               <span class="awards">『浙江省服务外包竞赛』二等奖</span>
             </div>
             <div class="awards-item">
-              <span class="time">2015.03</span>
-              <span class="awards">『新苗人才计划项目』成功结业</span>
+              <span class="awards">『新苗人才计划项目』项目负责人</span>
             </div>
             <div class="awards-item">
-              <span class="time">2014.12</span>
               <span>『浙江省多媒体设计竞赛』三等奖</span>
             </div>
             <div class="awards-item">
-              <span class="time">2014.05</span>
               <span class="awards">『浙江省电子商务竞赛』三等奖</span>
             </div>
           </div>
@@ -141,7 +139,7 @@
           .awards-item{
             float: left;
             /*margin-right: 20px;*/
-            width: 50%;
+            width: 30%;
             /*flex-wrap: wrap;*/
             @include Height(30px);
             @include clear-fix;
@@ -168,9 +166,14 @@
             background-color: $mainColor;
           }
           .work-content{
-            width: 514px;
+            // width: 514px;
+            margin-right: 10%;
             line-height:2;
             font-size: 12px;
+            p{
+              line-height: 1.5;
+              margin-top: 10px;
+            }
           }
         }
         .comment-myself{
