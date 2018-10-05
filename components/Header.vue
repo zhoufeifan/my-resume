@@ -15,21 +15,21 @@
                         <li>男 / 1992.10</li>
                         <li>浙江海洋大学 · 计算机科学与技术</li>
                         <li>本科 / 2016年毕业</li>
-                        <li>期望薪资：15K</li>
+                        <li>2年以上前端开发经验</li>
                     </ul>
                 </div>
                 <div class="personal-contact">
                     <ul>
                         <li>
-                            <a href="mailto:superzhou7@gmail.com">
-                                <span class="contact-link">superzhou7@gmail.com</span>
-                                <img class="iconfont" src="~assets/img/email.svg"/>
-                            </a>
-                        </li>
-                        <li>
                             <a href="tel:1745324934">
                                 <span class="contact-link">18368082630</span>
                                 <img class="iconfont" src="~assets/img/phone.svg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:superzhou7@gmail.com">
+                                <span class="contact-link">superzhou7@gmail.com</span>
+                                <img class="iconfont" src="~assets/img/email.svg"/>
                             </a>
                         </li>
                         <li>
