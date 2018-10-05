@@ -29,8 +29,7 @@
                   前端方面将jquery重构成React，项目用webpack进行打包构建。客户端方面从C#升级为NW，过程中踩了很多坑，
                   但性能、体验以及稳定性都有很大的提升，间接推动用户量增长。
                 </p>
-                <p>负责前端部分项目的脚手架搭建与配置。</p>
-                <p>带实习生进行日常的项目开发。</p>
+                <p>主要负责部分前端项目的脚手架搭建与配置。带过实习生进行日常的业务开发。</p>
               </div>
             </DraftItem>
           </div>
@@ -73,7 +72,7 @@
               喜欢在合适的时间做合适的事情。
             </p>
             <p class="comment-item">
-              平时注重锻炼身体，把身体健康看得比什么都重要。
+              平时注重锻炼身体，认为身体才是革命的本钱。
             </p>
           </div>
         </ItemTitle>
@@ -138,10 +137,11 @@
           @include clear-fix;
           .awards-item{
             float: left;
+            font-size: 10px;
             /*margin-right: 20px;*/
-            width: 30%;
+            width: 40%;
             /*flex-wrap: wrap;*/
-            @include Height(30px);
+            @include Height(20px);
             @include clear-fix;
             &>span{
               float: left;
@@ -169,9 +169,9 @@
             // width: 514px;
             margin-right: 10%;
             line-height:2;
-            font-size: 12px;
+            font-size: 10px;
             p{
-              line-height: 1.5;
+              line-height: 1.8;
               margin-top: 10px;
             }
           }
