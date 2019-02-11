@@ -11,12 +11,11 @@
         <ItemTitle title="工作经历" :icon="require('../assets/img/work.svg')">
           <div class="draft-group">
             <DraftItem>
-              <CareerTitle time="2018.05 — 至今" company="杭州光云科技公司" job="前端开发"></CareerTitle>
+              <CareerTitle time="2018.05 — 至今" company="杭州光云科技有限公司" job="前端开发"></CareerTitle>
               <p class="work-content">
-                参与过快麦收银软件的开发，包括web端的与electron端，硬件设备的接入。<br>
-                主要负责番茄表单项目C端填表的开发与维护，并在移动端环境搭建了用户错误信息收集系统。<br>
-                用 vue-cli3 从 0 到 1 搭建了一个移动端报名的项目，包括compoents、router、store模块的设计。<br>
-                负责年会红包雨模块开发，为高并发型红包雨下落动画，可以做的在移动端体验流畅。<br>
+                1、参与快麦收银软件的开发，包括web端与electron端的通信，硬件设备与 electron 的对接。<br>
+                2、主要负责『番茄表单』项目C端填表的开发与维护，并在移动端环境搭建了用户信息收集系统。分离了业务代码与信息收集代码，提高项目的可维护性。<br>
+                3、单独负责『移动端会议报名』项目，用 vue-cli3 从 0 到 1 搭建项目，包括组件模块的设计 、路由的配置、store 模块化设计等。<br>
               </p>
             </DraftItem>
           </div>
@@ -25,11 +24,11 @@
               <CareerTitle time="2016.04 — 2018.05" company="杭州合言信息科技有限公司" job="前端开发"></CareerTitle>
               <div class="work-content">
                 <p>
-                  主要维护的项目是『采宝PC收银台』，之后对项目进行的不断的改进和调整，
-                  前端方面将jquery重构成React，项目用webpack进行打包构建。客户端方面从C#重构为NW，解决了许多客户端兼容的问题，过程中踩了很多坑，
-                  但性能、体验以及稳定性都有很大的提升，间接推动用户量增长。
+                  1、主要负责『采宝PC收银台』项目，任职期间对项目进行的不断的改进和调整，前端方面将jquery重构成React，
+                  并用webpack管理项目。客户端方面从 C# 重构为 NW，解决了许多客户端兼容的问题，性能、体验以及稳定性都有很大的提升。
                 </p>
-                <p>另外，负责一部分前端项目的脚手架搭建与配置。带过实习生进行日常的业务开发。</p>
+                <p>2、在对『采宝会员系统』项目红包雨模块开发中，对高并发型红包雨下落动画做了性能优化，在移动端的体验效果从卡顿到流畅。</p>
+                <p>3、带过一段时间的前端团队，定期组织 code review 与技术分享。</p>
               </div>
             </DraftItem>
           </div>

@@ -1,17 +1,27 @@
 <template>
   <div class="containers">
     <p class="content">
-      主攻web前端开发，3年前端开发经验，web基础扎实、熟悉http网络请求。有过移动端网页开发经验，解决过移动端因机型、版本、平台引起的兼容性问题。有过nw与electron客户端的开发经验，踩过许多window客户端的坑。
+      1、熟练掌握JS基础、ES6及以上语法。熟悉 HTML 与 CSS 语法以及浏览器相关的知识。  
     </p>
     <p class="content">
-      熟悉React、Vue、Jquery等基础框架，熟悉webpack等前端构建工具，对其原理也有一定的了解。掌握git的基本命令，了解Linux脚本常用的一些命令，忠实的mac用户。
+      2、主要技术栈为 Vue，熟练掌握其开发技巧，了解其实现的原理，React 方面也有过一段时间的项目经验。
     </p>
     <p class="content">
-      线下学习过node，参照vue-cli，用node为公司写了一个前端发布脚本。
-      使用 node + koa + MongoDB 实现一个todoList 的网站 
-      <a href="http://todolist.zhoufeifan.tech/dist/index.html#/">http://todolist.zhoufeifan.tech/dist/index.html</a>。
+      3、了解设计模式相关的知识，可以编写简洁易维护的代码。
     </p>
-    <p class="content">有过微信端、钉钉端等容器中网站应用开发的经验, 目前疯狂踩坑中</p>
+    <p class="content">
+      4、了解性能优化方面的知识，优化过 H5 动画效果, 从卡顿到流畅。
+    </p>
+    <p class="content">
+      5、熟悉Wepack的使用，熟悉其配置各种项以及loader、plugin的使用，编写过自定义的 loader 与 plugin。
+    </p>
+    <p class="content">
+      6、具备客户端应用开发的经验，包括 electron、nw 以及移动端 webapp, 解决过许多兼容性问题。 
+    </p>
+    <p class="content">
+      7、自主学习了 NodeJS， 编写了一个自动化发布发布脚本，为整个团队提升了 5% 的研发效率。
+      并且学习了 koa、 MongoDB 以及服务器部署的相关知识，搭建了一个 <a href="http://todolist.zhoufeifan.tech/dist/index.html#/">todoList</a> 的网站。 
+    </p>
   </div>
 </template>
 
