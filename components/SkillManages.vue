@@ -1,7 +1,7 @@
 <template>
   <div class="containers">
     <p class="content">
-      1、熟练掌握JS基础、ES6及以上语法。熟悉 HTML 与 CSS 语法以及浏览器相关的知识。  
+      1、熟练掌握JS基础、ES6及以上语法。熟悉 HTML 与 CSS 以及浏览器相关的知识。  
     </p>
     <p class="content">
       2、主要技术栈为 Vue，熟练掌握其开发技巧，了解其实现的原理，React 方面也有过一段时间的项目经验。
