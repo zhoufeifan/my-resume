@@ -89,7 +89,6 @@
   import ProjectsContainer from '../components/ProjectsContainer.vue';
   import SkillManages from '../components/SkillManages.vue';
 
-
   export default {
       components: {
         Header,
