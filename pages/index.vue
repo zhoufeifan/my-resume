@@ -19,6 +19,8 @@
                 3、单独负责『有成会议移动端报名』项目，用 <span class="main-color">vue-cli3</span> 从 0 到 1 搭建项目，包括组件模块的设计 、<span class="main-color">vue-router</span>的配置、使用<span class="main-color">vuex</span> 模块化管理存储状态等。
                 设计了一个防止网页下拉的组件， 避免在微信、钉钉容器中出现下拉页面的糟糕效果，使得体验更接近于原生。
                 <br>
+                <br>
+                <br>
               </p>
             </DraftItem>
           </div>
