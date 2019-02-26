@@ -16,7 +16,7 @@
                 <div class="work-content">
                   <p class="title">
                     快麦收银软件
-                    <span class="skill">Electron、web、node</span>
+                    <span class="skill">Electron、Web、Node</span>
                   </p>
                   <p class="hint">项目描述：是一款用于桌面端的收银软件，主要功能有秤重、会员折扣计价、收款、打印小票等，对接了条码秤、电子秤、打印机、读卡器等多个硬件设备。</p>
                   <p class="resolve">针对硬件设备与web通信在不同收银机上的兼容性问题，将通信方式从原来的websocket方式改为Electorn原生的进程通信方式，并采用消息节流的方式提升性能，最终解决了这个问题。</p>
@@ -27,14 +27,14 @@
                     <span class="skill">Vue全家桶、微信与钉钉应用</span>
                   </p>
                   <p class="hint">项目描述：B端用户在B端创建表单后，生成表单链接，用户通过这个链接打开一个表单，就可以填写相关的信息。主要的应用场景有“问卷调查”、“考试测评”、“投票选举”、“信息收集”等功能。</p>
-                  <p class="resolve">针对运营方面定期产出的需求（首页banner、广告弹窗、公告等）。和同事一起讨论策划方案，搭建了一个后台管理系统，让那些需求通过后台系统配置的方式实现，解决了90%来自运营那边的需求。</p>
+                  <p class="resolve">针对运营方面定期产出的需求（首页banner、广告弹窗、公告等）。和同事合作一起搭建了一个后台管理系统，让那些需求通过后台系统配置的方式实现，解决了90%来自运营那边的需求。</p>
                   <p class="resolve">编写了一个消息提示框插件，通过全局注入到项目中。用一行代码代替原来分散的多行代码实现消息提示框的功能，提升开发效率、降低代码维护成本。</p>
-                  <p class="resolve">针对移动端填表不同设备兼容性问题的排查， 做了报错信息收集上报的功能。通过捕获全局的错误信息，解析堆栈调用，并获取用户的设备型号、网络环境、应用版本等信息进行上报</p>
+                  <p class="resolve">针对移动端填表不同设备兼容性问题的排查， 做了报错信息收集上报的功能。通过捕获全局的错误信息，解析堆栈调用，并获取用户的设备型号、网络环境、应用版本等信息进行上报。</p>
                 </div>
                 <div class="work-content">
                   <p class="title">
                     有成会议移动端报名
-                    <span class="skill">Vue全家桶、CSS3 </span>
+                    <span class="skill">Vue全家桶、CSS 3 </span>
                   </p>
                   <p class="hint">项目描述：有成会议移动端报名页面，用户通过手机号进行参会人员的添加、查询、删除等，还可以通过微信支付进行报名缴费。</p>
                   <p class="resolve">针对在微信webview中网页下拉的糟糕体验，设计了一个组件，让页面既可以有效的防止下拉，又可以流畅地进行滚动，实现仿原生的体验。</p>
@@ -192,14 +192,46 @@
             opacity: .5;
             background-color: $mainColor;
           }
-          .work-content{
-            // width: 514px;
-            margin-right: 10%;
-            line-height:2;
-            font-size: 10px;
-            p{
-              line-height: 1.8;
+          .work-content-list{
+            .work-content{
+              margin-right: 10%;
               margin-top: 10px;
+              .title {
+                font-size: 14px;
+                position: relative;
+                &::after{
+                  content: '';
+                  display: block;
+                  width: 100%;
+                  height: 1px;
+                  background-color: #ccc;
+                  transform: scaleY(0.5);
+                }
+                // border-bottom: 1px solid #ccc;
+                .skill{
+                  font-size: 12px;
+                  // float: right;
+                   margin-left: 30px;
+                  color: $mainColor;
+                }
+              }
+              .hint {
+                color: #666;
+                margin-top: 4px;
+                margin-bottom: 4px;
+              }
+              p {
+                line-height: 1.8;
+                font-size: 10px;
+              }
+              .resolve {
+                padding-left: 10px;
+                &::before{
+                  content: '-';
+                  margin-left: -9px;
+                  margin-right: 3px;
+                }
+              }
             }
           }
         }
@@ -226,13 +258,13 @@
     }
   }
 
-    .page-container{
-        width: 100%;
-      .resume-container {
-        margin: 0;
-        border-radius: 0;
-      }
+  .page-container{
+      width: 100%;
+    .resume-container {
+      margin: 0;
+      border-radius: 0;
     }
+  }
 
   @media screen and (max-width: 1024px){
     .page-container{
