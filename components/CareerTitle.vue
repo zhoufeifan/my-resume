@@ -21,6 +21,7 @@
   @import "~assets/mixin.scss";
   .career-title{
     display: flex;
+    font-size: 16px;
     .time{
       width: 200px;
     }
