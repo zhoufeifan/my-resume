@@ -61,7 +61,7 @@
     @import "~assets/mixin.scss";
     .resume-head {
         color: white;
-        padding: 30px 50px;
+        padding: 20px 50px;
         background-color: $mainColor;
         .title,.other-info{
             display: flex;

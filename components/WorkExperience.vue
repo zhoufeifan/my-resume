@@ -5,7 +5,7 @@
         {{item.title}}
         <span class="skill">{{item.skill}}</span>
       </p>
-      <p class="hint">项目描述：{{item.desc}}</p>
+      <p class="hint" v-if="item.desc">项目描述：{{item.desc}}</p>
       <p class="resolve" v-for="(s,index) in item.resolves" :key="index" v-html="s"></p>
     </div>
   </div>
@@ -27,7 +27,7 @@
       margin-right: 10%;
       margin-top: 10px;
       .title {
-        font-size: 14px;
+        font-size: 12px;
         position: relative;
         &::after{
           content: '';
@@ -39,7 +39,7 @@
         }
         // border-bottom: 1px solid #ccc;
         .skill{
-          font-size: 12px;
+          font-size: 10px;
           // float: right;
             margin-left: 30px;
           color: $mainColor;
