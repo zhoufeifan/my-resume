@@ -27,8 +27,8 @@
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:superzhou7@gmail.com">
-                                <span class="contact-link">superzhou7@gmail.com</span>
+                            <a href="mailto:937127883@qq.com">
+                                <span class="contact-link">937127883@qq.com</span>
                                 <img class="iconfont" src="~assets/img/email.svg"/>
                             </a>
                         </li>
