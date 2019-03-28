@@ -55,7 +55,7 @@
               习惯每周对工作做总结、反思，遗留的问题会加入自己的 todolist
             </p>
             <p class="comment-item">
-              始终坚持 “to be better” 的观念，一旦更好的解决方案，就会去做改进。
+              始终坚持 “to be better” 的原则，一旦更好的解决方案，就会去做改进。
             </p>
             <p class="comment-item">
               工作非常注重效率，喜欢合理规划时间。
