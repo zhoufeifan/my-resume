@@ -10,7 +10,7 @@
       3、熟练掌握 使用MVVM（Vue、React）框架开发的技巧，并了解其实现的原理，具备开发大型应用的实践。
     </p>
     <p class="content">
-      4、熟悉设计模式相关的知识，可以编写简洁易维护的代码。熟悉性能优化方面的知识，有过移动端的动画效果优化的实践，<a href="http://blog.zhoufeifan.tech/demo/dist/index.html#/redpacket">点击查看 demo</a>。
+      4、熟悉设计模式相关的知识，可以编写简洁易维护的代码。熟悉性能优化方面的知识，有过移动端的动画效果优化的实践，<a href="http://blog.zhoufeifan.tech/demo/dist/index.html#/red-packet">点击查看 demo</a>。
     </p>
     <p class="content">
       5、熟悉网络协议（HTTP/SSL）以及常见安全问题和对策，具备前端工程化与模块化开发的实践经验。
