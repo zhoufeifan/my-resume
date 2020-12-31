@@ -4,35 +4,44 @@
     <div class="resume-container">
       <Header></Header>
       <div class="resume-content">
+        <!-- <ItemTitle title="主要项目" :icon="require('../assets/img/project.svg')">
+          <ProjectsContainer :itemList="projectList" />
+        </ItemTitle>
+        <div class="blank"></div> -->
         <ItemTitle title="技能掌握" :icon="require('../assets/img/skill.svg')">
           <!--技能掌握-->
           <SkillManages></SkillManages>
         </ItemTitle>
-        <div class="blank"></div>
-        <ItemTitle title="重点项目" :icon="require('../assets/img/project.svg')">
-          <ProjectsContainer :itemList="projectList" />
-        </ItemTitle>
         <ItemTitle title="工作经历" :icon="require('../assets/img/work.svg')">
           <div class="draft-group">
             <DraftItem>
-              <CareerTitle time="2019.05 — 至今" company="杭州大搜车汽车服务有限公司" job="高级前端开发"></CareerTitle>
+              <CareerTitle time="2019.05 — 至今" company="杭州大搜车汽车服务有限公司" job="部门前端leader"></CareerTitle>
               <!-- <WorkExperience :workList="raycloundWorkList"/> -->
+              <p class="title">主要职责：</p>
+              <p class="item-row">1、带领前端团队成功交付 “沃世界” 项目，主要负责小程序与PC管理后台的技术选型、项目login框架与request框架的设计，把控团队的开发节奏解并帮助团队成员解决技术上的卡点，保证项目进度的可控性。</p>
+              <p class="item-row">2、负责“CMS系统的开发”，页面组件颗粒度化，实现C端页面的个性化自由搭建，“0开发投入”满足运营人员完成各种活动和文章页面的需求。</p>
             </DraftItem>
           </div>
           <div class="draft-group">
             <DraftItem>
               <CareerTitle time="2018.05 — 2019.05" company="杭州光云科技有限公司" job="高级前端开发"></CareerTitle>
               <!-- <WorkExperience :workList="raycloundWorkList"/> -->
+              <p class="title">主要职责：</p>
+              <p class="item-row">1、负责 “番茄表单” C端应用的开发，实现了一套跨平台的 js-sdk 来应对不同平台的 API 差异</p>
+              <p class="item-row">2、负责C端应用异常监控系统的开发，可以收集相关的报错信息并及时地进行通知，方便研发快速响应并准确的定位问题。</p>
             </DraftItem>
           </div>
           <div class="draft-group">
             <DraftItem>
               <CareerTitle time="2016.04 — 2018.05" company="杭州合言信息科技有限公司" job="前端开发"></CareerTitle>
               <!-- <WorkExperience :workList="caibaoWorkList"/> -->
+              <p class="title">主要职责：</p>
+              <p class="item-row">1、负责 “采宝收银台” 桌面应用软件的开发，根据遗留的问题与实际的业务场景，升级技术框架，使用 NW.js 代替 C#，提升了收银软件的稳定性与兼容性，间接推动商户的拓展。</p>
+              <p class="item-row">2、开发了一套命令行工具用于前端代码的发布，代替了原来繁琐且机械化的操作流程，一定程度上提升了效率</p>
             </DraftItem>
           </div>
         </ItemTitle>
-        <ItemTitle title="在校荣誉" :icon="require('../assets/img/school.svg')">
+        <!-- <ItemTitle title="在校荣誉" :icon="require('../assets/img/school.svg')">
           <div class="school-career-container">
             <div class="awards-item">
               <span class="awards">『浙江省程序设计竞赛』铜奖</span>
@@ -53,7 +62,7 @@
               <span class="awards">『浙江省电子商务竞赛』三等奖</span>
             </div>
           </div>
-        </ItemTitle>
+        </ItemTitle> -->
         <ItemTitle title="自我评价" :icon="require('../assets/img/comment.svg')">
           <!--自我评价-->
           <div class="comment-myself">
@@ -226,6 +235,14 @@
             left: 0;
             opacity: .5;
             background-color: $mainColor;
+          }
+          .title {
+
+          }
+          .item-row {
+            font-size: 12px;
+            line-height: 1.3;
+            margin-top: 10px;
           }
         }
         .comment-myself{
