@@ -21,12 +21,16 @@
   @import "~assets/mixin.scss";
   .career-title{
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     .time{
       width: 200px;
     }
     .company,.job{
       flex: 1;
+    }
+    .job {
+      padding-right: 20px;
+      text-align: right;
     }
     @include Height(24px);
     margin-bottom: 10px;

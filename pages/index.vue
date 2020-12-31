@@ -8,24 +8,30 @@
           <!--技能掌握-->
           <SkillManages></SkillManages>
         </ItemTitle>
+        <div class="blank"></div>
+        <ItemTitle title="重点项目" :icon="require('../assets/img/project.svg')">
+          <ProjectsContainer :itemList="projectList" />
+        </ItemTitle>
         <ItemTitle title="工作经历" :icon="require('../assets/img/work.svg')">
           <div class="draft-group">
             <DraftItem>
-              <CareerTitle time="2018.05 — 至今" company="杭州光云科技有限公司" job="前端开发"></CareerTitle>
-              <WorkExperience :workList="raycloundWorkList"/>
+              <CareerTitle time="2019.05 — 至今" company="杭州大搜车汽车服务有限公司" job="高级前端开发"></CareerTitle>
+              <!-- <WorkExperience :workList="raycloundWorkList"/> -->
             </DraftItem>
           </div>
-          <br/>
+          <div class="draft-group">
+            <DraftItem>
+              <CareerTitle time="2018.05 — 2019.05" company="杭州光云科技有限公司" job="高级前端开发"></CareerTitle>
+              <!-- <WorkExperience :workList="raycloundWorkList"/> -->
+            </DraftItem>
+          </div>
           <div class="draft-group">
             <DraftItem>
               <CareerTitle time="2016.04 — 2018.05" company="杭州合言信息科技有限公司" job="前端开发"></CareerTitle>
-              <WorkExperience :workList="caibaoWorkList"/>
+              <!-- <WorkExperience :workList="caibaoWorkList"/> -->
             </DraftItem>
           </div>
         </ItemTitle>
-        <!-- <ItemTitle title="主要项目经历" :icon="require('../assets/img/project.svg')">
-          <ProjectsContainer></ProjectsContainer>
-        </ItemTitle> -->
         <ItemTitle title="在校荣誉" :icon="require('../assets/img/school.svg')">
           <div class="school-career-container">
             <div class="awards-item">
@@ -91,8 +97,21 @@
         SkillManages
       },
       data(){
-        return{
+        return {
           downloadUrl : `${domain}/download/downLoadResumePDF`,
+          projectList: [{
+            name: '搜车库项目',
+            skills: ['Vue','移动端适配'],
+            resolve: '自定义实现酷炫的视频播放器，具备流畅的动画效果与操作体验。并且解决了视频截帧图随进度条的拖而动而频繁切换的卡顿问题。'
+          },{
+            name: 'CMS设计框架',
+            skills: ['Drag API','React'],
+            resolve: '实现通过拖拽控件的方式来完成页面的搭建，支持页面中拖拽控件。对其展示顺序进行排版。还能支持非顺序性的控件显示（吸底的按钮）。'
+          },{
+            name: '采宝收银台',
+            skills: ['NW.js', 'React', 'Node'],
+            resolve: '为解决js在不同浏览器上的兼容性的问题，升级了原来的客户端框架，从 C# 到 NW.js，前端项目通过 webpack 进行工程化提升开发效率。前端资源采用离线缓存，借助 NW.js 的 node 环境，实现资源的在线更新。'
+          }],
           raycloundWorkList: [{
             title: '番茄表单',
             skill: 'Vue 全家桶、微信与钉钉应用',
@@ -248,5 +267,8 @@
         border-radius: 0;
       }
     }
+  }
+  .blank {
+    height: 70px;
   }
 </style>

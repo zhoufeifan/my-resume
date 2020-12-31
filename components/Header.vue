@@ -15,7 +15,7 @@
                         <li>男 / 1992.10</li>
                         <li>浙江海洋大学 · 计算机科学与技术</li>
                         <li>本科 / 2016年毕业</li>
-                        <li>3年前端实践经验</li>
+                        <li>4年前端实践经验</li>
                     </ul>
                 </div>
                 <div class="personal-contact">
