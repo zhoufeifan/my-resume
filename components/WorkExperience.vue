@@ -40,6 +40,7 @@
         // border-bottom: 1px solid #ccc;
         .skill{
           font-size: 10px;
+          font-weight: 500;
           // float: right;
             margin-left: 30px;
           color: $mainColor;
